@@ -1,0 +1,52 @@
+<section class="contacts section" id="contacts">
+  <div class="container">
+    <h2 class="contacts-title">
+      Registration for a <span class="active">free</span> phone
+      <span class="active">consultation</span> on the nuances of English UPE
+    </h2>
+    <h3 class="contacts-subtitle">
+      Leave a request for participation in a
+      <span class="active"><br class="br-none" />free lesson</span>. <br />A
+      consultant will contact you and answer your questions
+    </h3>
+    <form class="form contacts-form" name="contact-form">
+      <div class="contacts-form-group">
+        <label class="contacts-form-field">
+          <input
+            class="contacts-form-input"
+            name="name"
+            type="text"
+            minlength="3"
+            placeholder="John Doe"
+            required pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
+            title="Please input name and last name"
+          />
+          <span class="contacts-form-label">Name&ast;</span>
+        </label>
+        <label class="contacts-form-field">
+          <input
+            class="contacts-form-input"
+            name="phone"
+            type="tel"
+            id="phone"
+            minlength="12"
+            maxlength="12"
+            placeholder="380001234567"
+            required pattern="^[0-9]+$"
+            title="Please input number in the format 380001234567"
+          />
+          <span class="contacts-form-label">Phone&ast;</span>
+        </label>
+      </div>
+<div>
+   
+      <button
+        class="contacts-form-btn btn"
+        type="submit"
+        id="button"
+      >
+        I want a free lesson
+      </button>
+    </form>
+  </div>
+</section>
